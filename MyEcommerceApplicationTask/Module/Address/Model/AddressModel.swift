@@ -26,6 +26,4 @@ class AddressModel{
         self.strAddress2 = strAddress2
         self.strPincode = strPincode
     }
-    
-    
 }
