@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HUw-6s-1oH">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Ecommerce View Controller-->
+        <scene sceneID="pLl-GJ-9JN">
+            <objects>
+                <viewController storyboardIdentifier="EcommerceViewController" id="9kw-ES-S83" customClass="EcommerceViewController" customModule="MyEcommerceApplicationTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MoQ-nX-LpJ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_amazone 1" translatesAutoresizingMaskIntoConstraints="NO" id="Dmm-tx-dQL">
+                                <rect key="frame" x="86.666666666666686" y="311" width="220" height="230"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="amazon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FPK-MK-4RU">
+                                <rect key="frame" x="130.66666666666666" y="496" width="131.99999999999997" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="132" id="QMu-Bk-f5p"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="37"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7j8-wN-KkX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Dmm-tx-dQL" firstAttribute="centerX" secondItem="MoQ-nX-LpJ" secondAttribute="centerX" id="ELb-WP-Ycs"/>
+                            <constraint firstItem="Dmm-tx-dQL" firstAttribute="centerX" secondItem="MoQ-nX-LpJ" secondAttribute="centerX" id="FXw-pW-1l7"/>
+                            <constraint firstItem="Dmm-tx-dQL" firstAttribute="centerY" secondItem="MoQ-nX-LpJ" secondAttribute="centerY" id="IT6-xn-iGP"/>
+                            <constraint firstItem="FPK-MK-4RU" firstAttribute="bottom" secondItem="Dmm-tx-dQL" secondAttribute="bottom" id="O5n-4l-5ha"/>
+                            <constraint firstItem="Dmm-tx-dQL" firstAttribute="centerY" secondItem="MoQ-nX-LpJ" secondAttribute="centerY" id="WZk-pD-JOw"/>
+                            <constraint firstItem="Dmm-tx-dQL" firstAttribute="centerY" secondItem="MoQ-nX-LpJ" secondAttribute="centerY" id="YZJ-d8-M7l"/>
+                            <constraint firstItem="Dmm-tx-dQL" firstAttribute="centerY" secondItem="MoQ-nX-LpJ" secondAttribute="centerY" id="cv2-jr-0TX"/>
+                            <constraint firstItem="FPK-MK-4RU" firstAttribute="centerX" secondItem="MoQ-nX-LpJ" secondAttribute="centerX" id="jE1-BD-wvl"/>
+                            <constraint firstItem="Dmm-tx-dQL" firstAttribute="centerX" secondItem="MoQ-nX-LpJ" secondAttribute="centerX" id="neF-Dv-GfR"/>
+                            <constraint firstItem="Dmm-tx-dQL" firstAttribute="centerX" secondItem="MoQ-nX-LpJ" secondAttribute="centerX" id="y9c-WC-5Ji"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="1G8-AK-1UK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KGd-Re-hTk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3457.2519083969464" y="-103.52112676056339"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="g4Q-rk-gdY">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HUw-6s-1oH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tio-bQ-Yoi">
+                        <rect key="frame" x="0.0" y="118" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9kw-ES-S83" kind="relationship" relationship="rootViewController" id="Nyp-jk-tRg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5pN-CC-teh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2530.5343511450383" y="-103.52112676056339"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="1Wq-Ho-rTi">
+            <objects>
+                <viewController storyboardIdentifier="WebViewController" id="wVs-QD-OKI" customClass="WebViewController" customModule="MyEcommerceApplicationTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8NT-KK-hvL">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zFn-ns-2Z9">
+                                <rect key="frame" x="0.0" y="118" width="393" height="666"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="meN-Sv-qs6">
+                                <rect key="frame" x="178" y="432.66666666666669" width="37" height="37"/>
+                                <color key="color" systemColor="systemOrangeColor"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Kb3-jZ-T6g"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="meN-Sv-qs6" firstAttribute="centerY" secondItem="zFn-ns-2Z9" secondAttribute="centerY" id="GJC-PC-Xm4"/>
+                            <constraint firstItem="Kb3-jZ-T6g" firstAttribute="bottom" secondItem="zFn-ns-2Z9" secondAttribute="bottom" id="MUs-0t-SnY"/>
+                            <constraint firstItem="zFn-ns-2Z9" firstAttribute="leading" secondItem="Kb3-jZ-T6g" secondAttribute="leading" id="NT2-su-bZe"/>
+                            <constraint firstItem="meN-Sv-qs6" firstAttribute="centerX" secondItem="zFn-ns-2Z9" secondAttribute="centerX" id="QgA-1o-J2V"/>
+                            <constraint firstItem="zFn-ns-2Z9" firstAttribute="top" secondItem="Kb3-jZ-T6g" secondAttribute="top" id="aiQ-To-jLC"/>
+                            <constraint firstItem="Kb3-jZ-T6g" firstAttribute="trailing" secondItem="zFn-ns-2Z9" secondAttribute="trailing" id="oxe-ov-UKf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="animate" destination="meN-Sv-qs6" id="1sB-R1-9Ol"/>
+                        <outlet property="webview" destination="zFn-ns-2Z9" id="LNQ-Tz-cgu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ish-Qy-n4x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2140" y="-781"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_amazone 1" width="220" height="230"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
