@@ -209,7 +209,7 @@
                                     </textField>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="vR9-e4-uWA">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="vR9-e4-uWA">
                                 <rect key="frame" x="137.5" y="31.5" width="100" height="97"/>
                                 <color key="tintColor" systemColor="systemOrangeColor"/>
                                 <constraints>
