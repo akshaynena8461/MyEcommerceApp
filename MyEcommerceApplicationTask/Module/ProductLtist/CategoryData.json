@@ -1,0 +1,37 @@
+[
+    {
+      "categoryId": 0,
+      "categoryName": "All",
+      "categoryDisplayName": "All"
+    },
+  {
+    "categoryId": 1,
+    "categoryName": "iphone12",
+    "categoryDisplayName": "iphone 12"
+  },
+  {
+    "categoryId": 2,
+    "categoryName": "iphone13",
+    "categoryDisplayName": "iphone 13"
+  },
+  {
+    "categoryId": 3,
+    "categoryName": "iphone14",
+    "categoryDisplayName": "iphone 14"
+  },
+  {
+    "categoryId": 4,
+    "categoryName": "iphone11",
+    "categoryDisplayName": "iphone 11"
+  },
+  {
+    "categoryId": 5,
+    "categoryName": "iphoneXR",
+    "categoryDisplayName": "iphone XR"
+  },
+  {
+    "categoryId": 6,
+    "categoryName": "iphoneSE",
+    "categoryDisplayName": "iphone SE (3rd Generation)"
+  }
+]

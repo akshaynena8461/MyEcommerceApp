@@ -1,0 +1,183 @@
+[
+  {
+    "id": 1,
+    "strName": "iPhone 14",
+    "doublePrice": 49000,
+    "strCategory": "Smartphones",
+    "strDescription": "iPhone 14 with 6.1-inch display, A15 Bionic chip, and dual-camera system.",
+    "strFullDescription": "iPhone 14 features a 6.1-inch Super Retina XDR display and A15 Bionic chip for powerful performance. It includes a dual-camera system with Photonic Engine, Cinematic Mode, and Crash Detection for safety. With excellent battery life and smooth iOS experience, it's perfect for everyday use.",
+    "strImageName": ["ic_iphone_14", "ic_iphone14_2", "ic_iphone14_3", "ic_iphone14_4", "ic_iphone14_5"],
+    "objProductCategory": "iphone14",
+    "categoryId":3
+    
+    
+  },
+  {
+    "id": 2,
+    "strName": "iPhone 14 Plus",
+    "doublePrice": 58000,
+    "strCategory": "Smartphones",
+    "strDescription": "iPhone 14 Plus with 6.7-inch display, powerful battery, and A15 Bionic chip.",
+    "strFullDescription": "iPhone 14 Plus offers a larger 6.7-inch display and extended battery life. Powered by the A15 Bionic chip and featuring a dual-camera system with Action Mode and improved low-light photography, it's built for both entertainment and productivity.",
+    "strImageName": ["ic_iphone_16_plus", "ic_iphone14plus_2", "ic_iphone14plus_3", "ic_iphone14plus_4", "ic_iphone14plus_5"],
+    "objProductCategory": "iphone14",
+    "categoryId":3
+
+  },
+  {
+    "id": 3,
+    "strName": "iPhone 14 Pro",
+    "doublePrice": 70000,
+    "strCategory": "Smartphones",
+    "strDescription": "iPhone 14 Pro with Dynamic Island, A16 Bionic chip, and ProMotion display.",
+    "strFullDescription": "The iPhone 14 Pro features a 6.1-inch Super Retina XDR display with ProMotion and Always-On Display. Powered by the A16 Bionic chip, it includes a 48MP main camera, Dynamic Island for real-time alerts, crash detection, and enhanced low-light photography—offering pro-level performance in a compact size.",
+    "strImageName": ["ic_iphone_16_pro", "ic_iphone14pro_2", "ic_iphone14pro_3", "ic_iphone14pro_4", "ic_iphone14pro_5"],
+    "objProductCategory": "iphone14",
+    "categoryId":3
+
+  },
+  {
+    "id": 4,
+    "strName": "iPhone 14 Pro Max",
+    "doublePrice": 80000,
+    "strCategory": "Smartphones",
+    "strDescription": "iPhone 14 Pro Max with 6.7-inch Super Retina XDR display and 48MP camera.",
+    "strFullDescription": "The iPhone 14 Pro Max features a 6.7-inch Super Retina XDR display with ProMotion and Always-On Display. Powered by the A16 Bionic chip, it includes a 48MP main camera, Dynamic Island, crash detection, and all-day battery life—designed for users who demand the best in performance, photography, and display technology.",
+    "strImageName": ["ic_iphone_16_pro_max", "ic_iphone14promax_2", "ic_iphone14promax_3", "ic_iphone14promax_4", "ic_iphone14promax_5"],
+    "objProductCategory": "iphone14",
+    "categoryId":3
+
+  },
+  {
+    "id": 5,
+    "strName": "iPhone 13",
+    "doublePrice": 45000,
+    "strCategory": "Smartphones",
+    "strDescription": "iPhone 13 with A15 chip, 6.1-inch OLED display, and improved battery life.",
+    "strFullDescription": "The iPhone 13 features a 6.1-inch Super Retina XDR display and is powered by the A15 Bionic chip for fast and efficient performance. It includes a dual-camera system with sensor-shift optical image stabilization, improved low-light performance, and longer battery life—making it a great all-round device.",
+    "strImageName": ["ic_iphone_13", "ic_iphone13_2", "ic_iphone13_3", "ic_iphone13_4", "ic_iphone13_5"],
+    "objProductCategory": "iphone13",
+    "categoryId":2
+
+  },
+  {
+    "id": 6,
+    "strName": "iPhone 13 Mini",
+    "doublePrice": 40000,
+    "strCategory": "Smartphones",
+    "strDescription": "iPhone 13 Mini – compact design, 5.4-inch display, and dual-camera system.",
+    "strFullDescription": "The iPhone 13 mini features a compact 5.4-inch Super Retina XDR display and is powered by the A15 Bionic chip for fast performance and efficiency. Despite its small size, it offers a dual-camera system with improved low-light photography, 5G support, and impressive battery life—perfect for users who prefer a smaller, powerful phone.",
+    "strImageName": ["ic_iphone_9", "ic_iphone13mini_2", "ic_iphone13mini_3", "ic_iphone13mini_4", "ic_iphone13mini_5"],
+    "objProductCategory": "iphone13",
+    "categoryId":2
+
+  },
+  {
+    "id": 7,
+    "strName": "iPhone 13 Pro",
+    "doublePrice": 69000,
+    "strCategory": "Smartphones",
+    "strDescription": "iPhone 13 Pro with ProMotion display, triple cameras, and A15 Bionic chip.",
+    "strFullDescription": "The iPhone 13 Pro features a 6.1-inch Super Retina XDR display with ProMotion for smoother visuals. Powered by the A15 Bionic chip with a 5-core GPU, it delivers top-tier performance. The advanced triple-camera system includes a LiDAR scanner, enabling stunning low-light photos, macro photography, and cinematic mode—ideal for users seeking pro-level capabilities.",
+    "strImageName": ["ic_iphone_15_pro", "ic_iphone13pro_2", "ic_iphone13pro_3", "ic_iphone13pro_4", "ic_iphone13pro_5"],
+    "objProductCategory": "iphone13",
+    "categoryId":2
+
+  },
+  {
+    "id": 8,
+    "strName": "iPhone 13 Pro Max",
+    "doublePrice": 77000,
+    "strCategory": "Smartphones",
+    "strDescription": "iPhone 13 Pro Max with cinematic mode and longest battery life ever in iPhone.",
+    "strFullDescription": "The iPhone 13 Pro Max features a large 6.7-inch Super Retina XDR display with ProMotion, offering smooth 120Hz refresh rates. Powered by the A15 Bionic chip with a 5-core GPU, it delivers exceptional performance and graphics. The advanced triple-camera system supports macro photography, cinematic mode, and improved low-light",
+    "strImageName": ["ic_iphone_15_pro_max", "ic_iphone13promax_2", "ic_iphone13promax_3", "ic_iphone13promax_4", "ic_iphone13promax_5"],
+    "objProductCategory": "iphone13",
+    "categoryId":2
+    
+  },
+  {
+    "id": 9,
+    "strName": "iPhone 12",
+    "doublePrice": 38000,
+    "strCategory": "Smartphones",
+    "strDescription": "iPhone 12 with A14 Bionic chip and Ceramic Shield front cover.",
+    "strFullDescription": "The iPhone 12 features a 6.1-inch Super Retina XDR display and is powered by the A14 Bionic chip for fast and efficient performance. It supports 5G connectivity and includes a dual-camera system with Night mode on both the wide and ultra-wide lenses. With a sleek flat-edge design and Ceramic Shield front, it's durable, powerful, and designed for the future",
+    "strImageName": ["ic_iphone_12", "ic_iphone12_2", "ic_iphone12_3", "ic_iphone12_4", "ic_iphone12_5"],
+    "objProductCategory": "iphone12",
+    "categoryId":1
+
+  },
+  {
+    "id": 10,
+    "strName": "iPhone 12 Mini",
+    "doublePrice": 34000,
+    "strCategory": "Smartphones",
+    "strDescription": "iPhone 12 Mini with 5.4-inch OLED display and dual cameras.",
+    "strFullDescription": "The iPhone 12 mini features a compact 5.4-inch Super Retina XDR display, offering the same powerful performance as the larger iPhone 12. Powered by the A14 Bionic chip and supporting 5G, it delivers fast speeds and smooth experiences. Its dual-camera system includes Night mode on both lenses, and the lightweight design makes it the perfect choice for users who prefer a smaller, pocket-friendly phone without sacrificing performance.",
+    "strImageName": ["ic_iphone_9", "ic_iphone12mini_2", "ic_iphone12mini_3", "ic_iphone12mini_4", "ic_iphone12mini_5"],
+    "objProductCategory": "iphone12",
+    "categoryId":1
+
+  },
+  {
+    "id": 11,
+    "strName": "iPhone 12 Pro",
+    "doublePrice": 63000,
+    "strCategory": "Smartphones",
+    "strDescription": "iPhone 12 Pro with LiDAR scanner and Pro camera system.",
+    "strFullDescription": "The iPhone 12 Pro features a 6.1-inch Super Retina XDR display and is powered by the A14 Bionic chip with a 5-core GPU for pro-level performance. It includes a triple-camera system with LiDAR scanner for enhanced low-light photography, Night mode portraits, and faster AR experiences. With 5G support and a sleek surgical-grade stainless steel design, it’s built for speed, power, and sophistication.",
+    "strImageName": ["ic_iphone_15_pro", "ic_iphone12pro_2", "ic_iphone12pro_3", "ic_iphone12pro_4", "ic_iphone12pro_5"],
+    "objProductCategory": "iphone12",
+    "categoryId":1
+
+  },
+  {
+    "id": 12,
+    "strName": "iPhone 12 Pro Max",
+    "doublePrice": 70000,
+    "strCategory": "Smartphones",
+    "strDescription": "iPhone 12 Pro Max with 6.7-inch display and Dolby Vision HDR recording.",
+    "strFullDescription": "The iPhone 12 Pro Max features a 6.7-inch Super Retina XDR display—the largest on an iPhone at its launch. Powered by the A14 Bionic chip and equipped with a triple-camera system with a LiDAR scanner, it delivers superior low-li",
+    "strImageName": ["ic_iphone_15_pro_max", "ic_iphone12promax_2", "ic_iphone12promax_3", "ic_iphone12promax_4", "ic_iphone12promax_5"],
+    "objProductCategory": "iphone12",
+    "categoryId":1
+
+  },
+  {
+    "id": 13,
+    "strName": "iPhone SE (3rd Gen)",
+    "doublePrice": 30000,
+    "strCategory": "Smartphones",
+    "strDescription": "iPhone SE (2022) with A15 chip and Touch ID in a compact design.",
+    "strFullDescription": "The iPhone SE (3rd Gen) features a 4.7-inch Retina HD display and is powered by the A15 Bionic chip—the same chip found in the iPhone 13 series. It offers 5G support, advanced camera features like Smart HDR 4 and Deep Fusion, and retains the classic Touch ID home button. Compact, fast, and affordable, it’s ideal for users who prefer a smaller iPhone with powerful performance.",
+    "strImageName": ["ic_iphone_8", "ic_iphoneSE_2", "ic_iphoneSE_3", "ic_iphoneSE_4", "ic_iphoneSE_5"],
+    "objProductCategory": "iphoneSE",
+    "categoryId":6
+
+  },
+  {
+    "id": 14,
+    "strName": "iPhone 11",
+    "doublePrice": 32000,
+    "strCategory": "Smartphones",
+    "strDescription": "iPhone 11 with 6.1-inch LCD display and ultra-wide dual camera.",
+    "strFullDescription": "The iPhone 11 features a 6.1-inch Liquid Retina HD display and is powered by the A13 Bionic chip for smooth performance and energy efficiency. It includes a dual-camera system with ultra-wide and Night mode capabilities, offering high-quality photos in various lighting conditions. With all-day battery life and a durable glass and aluminum design, it remains a popular all-round iPhone.",
+    "strImageName": ["ic_iphone_11", "ic_iphone11_2", "ic_iphone11_3", "ic_iphone11_4", "ic_iphone11_5"],
+    "objProductCategory": "iphone11",
+    "categoryId":4
+
+  },
+  {
+    "id": 15,
+    "strName": "iPhone XR",
+    "doublePrice": 28000,
+    "strCategory": "Smartphones",
+    "strDescription": "iPhone XR with 6.1-inch Liquid Retina display and A12 Bionic chip.",
+    "strFullDescription": "The iPhone XR features a 6.1-inch Liquid Retina HD display and is powered by the A12 Bionic chip. It offers a single 12MP wide camera with Smart HDR and advanced Face ID. Known for its vibrant design and great battery life, the XR delivers a premium iPhone experience at a more accessible price.",
+    "strImageName": ["ic_iphone_10", "ic_iphoneXR_2", "ic_iphoneXR_3", "ic_iphoneXR_4", "ic_iphoneXR_5"],
+    "objProductCategory": "iphoneXR",
+    "categoryId":5
+
+  }
+]

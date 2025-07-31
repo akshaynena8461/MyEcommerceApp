@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--About View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="AboutViewController" id="Y6W-OH-hqX" customClass="AboutViewController" customModule="MyEcommerceApplicationTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc" customClass="EdiProfileViewController.swift">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="23W-VC-9ms">
+                                <rect key="frame" x="0.0" y="118" width="393" height="666"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="mqI-if-zkH">
+                                <rect key="frame" x="178" y="432.66666666666669" width="37" height="37"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mqI-if-zkH" firstAttribute="centerY" secondItem="23W-VC-9ms" secondAttribute="centerY" id="1zc-A9-MoY"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="23W-VC-9ms" secondAttribute="trailing" id="2ns-NT-IQe"/>
+                            <constraint firstItem="mqI-if-zkH" firstAttribute="centerX" secondItem="23W-VC-9ms" secondAttribute="centerX" id="3AH-qX-Ikf"/>
+                            <constraint firstItem="23W-VC-9ms" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="9YR-Nb-ils"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="23W-VC-9ms" secondAttribute="bottom" id="DfN-Dx-AiR"/>
+                            <constraint firstItem="23W-VC-9ms" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="bFi-vP-KFm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="animate" destination="mqI-if-zkH" id="mKd-Qa-a2E"/>
+                        <outlet property="webView" destination="23W-VC-9ms" id="KCc-5M-x4B"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3576.3358778625952" y="-573.23943661971839"/>
+        </scene>
+        <!--Contact View Controller-->
+        <scene sceneID="b3V-1B-Pgn">
+            <objects>
+                <viewController storyboardIdentifier="ContactViewController" id="Xmz-xM-bUy" customClass="ContactViewController" customModule="MyEcommerceApplicationTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kH3-wu-bpr">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAS-wZ-T3l">
+                                <rect key="frame" x="16" y="501" width="361" height="52"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="TtX-xd-5VS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Send Message">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendmsg:" destination="Xmz-xM-bUy" eventType="touchUpInside" id="v3a-Cr-fEI"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="lwi-bL-jG8">
+                                <rect key="frame" x="16" y="128" width="361" height="353"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your name:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="znt-rX-4Ug">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="oT6-Li-DoB"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YlJ-8O-ieU">
+                                        <rect key="frame" x="0.0" y="70" width="361" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="CP9-Th-RjF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                    </textField>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Type Message..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="f9N-mg-ak0">
+                                        <rect key="frame" x="0.0" y="140" width="361" height="213"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="Xmz-xM-bUy" id="mVk-dB-LQE"/>
+                                        </connections>
+                                    </textView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="iRw-F9-caW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lwi-bL-jG8" firstAttribute="leading" secondItem="iRw-F9-caW" secondAttribute="leading" constant="16" id="LSe-IP-dub"/>
+                            <constraint firstItem="iRw-F9-caW" firstAttribute="trailing" secondItem="lwi-bL-jG8" secondAttribute="trailing" constant="16" id="MmC-fF-Py7"/>
+                            <constraint firstItem="jAS-wZ-T3l" firstAttribute="top" secondItem="lwi-bL-jG8" secondAttribute="bottom" constant="20" id="Ri0-Ti-caV"/>
+                            <constraint firstItem="iRw-F9-caW" firstAttribute="trailing" secondItem="jAS-wZ-T3l" secondAttribute="trailing" constant="16" id="dQw-vy-R1l"/>
+                            <constraint firstItem="jAS-wZ-T3l" firstAttribute="leading" secondItem="iRw-F9-caW" secondAttribute="leading" constant="16" id="gx1-Wc-uwK"/>
+                            <constraint firstItem="lwi-bL-jG8" firstAttribute="top" secondItem="iRw-F9-caW" secondAttribute="top" constant="10" id="rVO-a4-Xlt"/>
+                            <constraint firstItem="iRw-F9-caW" firstAttribute="bottom" secondItem="jAS-wZ-T3l" secondAttribute="bottom" constant="231" id="va0-GP-Xnm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="sendmsgbtn" destination="jAS-wZ-T3l" id="7Ni-vh-kjY"/>
+                        <outlet property="txtEmail" destination="YlJ-8O-ieU" id="VsV-dp-usf"/>
+                        <outlet property="txtName" destination="znt-rX-4Ug" id="Kiu-dF-ckN"/>
+                        <outlet property="txtmsg" destination="f9N-mg-ak0" id="4Ea-p5-12D"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6zo-9b-Zh5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1492" y="-573"/>
+        </scene>
+        <!--Setting View Controller-->
+        <scene sceneID="cHZ-0p-2EY">
+            <objects>
+                <viewController storyboardIdentifier="SettingViewController" id="QdG-CK-fmX" customClass="SettingViewController" customModule="MyEcommerceApplicationTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qpy-vm-xou">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="hxp-xE-qRo">
+                                <rect key="frame" x="0.0" y="118" width="393" height="666"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="QdG-CK-fmX" id="zW4-gk-GwM"/>
+                                    <outlet property="delegate" destination="QdG-CK-fmX" id="oUR-dU-xQS"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="SEL-Oa-MrH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="SEL-Oa-MrH" firstAttribute="trailing" secondItem="hxp-xE-qRo" secondAttribute="trailing" id="8HF-Wd-uYO"/>
+                            <constraint firstItem="SEL-Oa-MrH" firstAttribute="bottom" secondItem="hxp-xE-qRo" secondAttribute="bottom" id="8xb-Jy-a2B"/>
+                            <constraint firstItem="hxp-xE-qRo" firstAttribute="leading" secondItem="SEL-Oa-MrH" secondAttribute="leading" id="Fae-Jd-jjU"/>
+                            <constraint firstItem="hxp-xE-qRo" firstAttribute="top" secondItem="SEL-Oa-MrH" secondAttribute="top" id="d74-1u-mBX"/>
+                            <constraint firstItem="hxp-xE-qRo" firstAttribute="bottom" secondItem="SEL-Oa-MrH" secondAttribute="bottom" id="hyK-8G-lRC"/>
+                            <constraint firstItem="hxp-xE-qRo" firstAttribute="trailing" secondItem="SEL-Oa-MrH" secondAttribute="trailing" id="qf4-LP-vB2"/>
+                            <constraint firstItem="hxp-xE-qRo" firstAttribute="leading" secondItem="SEL-Oa-MrH" secondAttribute="leading" id="tYz-ed-QpE"/>
+                            <constraint firstItem="hxp-xE-qRo" firstAttribute="top" secondItem="SEL-Oa-MrH" secondAttribute="top" id="yPm-FE-MYe"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="settingtblview" destination="hxp-xE-qRo" id="jBU-lT-n9l"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L81-qc-3iv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="657" y="-573"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

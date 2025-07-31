@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "strName": "iPhone 13",
+        "doublePrice": 69990,
+        "strCategory": "iphone13",
+        "strDescription": "Apple iPhone 13 with A15 Bionic chip",
+        "strFullDescription": "The iPhone 13 features a sleek design, powerful A15 Bionic chip, and advanced dual-camera system for stunning photos.",
+        "strImageName": [
+            "iphone13"
+        ],
+        "objProductCategory": "iphone13"
+    },
+    {
+        "id": 2,
+        "strName": "iPhone 13 Mini",
+        "doublePrice": 64990,
+        "strCategory": "iphone13",
+        "strDescription": "Apple iPhone 13 Mini compact smartphone",
+        "strFullDescription": "The iPhone 13 Mini offers the same performance as iPhone 13 in a more compact design, ideal for one-handed use.",
+        "strImageName": [
+            "iphone13mini"
+        ],
+        "objProductCategory": "iphone13"
+    },
+    {
+        "id": 3,
+        "strName": "iPhone 13 Pro",
+        "doublePrice": 99990,
+        "strCategory": "iphone13",
+        "strDescription": "Apple iPhone 13 Pro with triple-camera",
+        "strFullDescription": "The iPhone 13 Pro comes with ProMotion display, triple-camera system, and enhanced photography capabilities.",
+        "strImageName": [
+            "iphone13pro"
+        ],
+        "objProductCategory": "iphone13"
+    },
+    {
+        "id": 4,
+        "strName": "iPhone 13 Pro Max",
+        "doublePrice": 109900,
+        "strCategory": "iphone13",
+        "strDescription": "Apple iPhone 13 Pro Max flagship phone",
+        "strFullDescription": "The iPhone 13 Pro Max features a large display, best-in-class battery life, and cutting-edge performance.",
+        "strImageName": [
+            "iphone13promax"
+        ],
+        "objProductCategory": "iphone13"
+    },
+    {
+        "id": 5,
+        "strName": "iPhone 14",
+        "doublePrice": 79990,
+        "strCategory": "iphone14",
+        "strDescription": "Apple iPhone 14 with new safety features",
+        "strFullDescription": "The iPhone 14 introduces crash detection, emergency SOS via satellite, and enhanced performance.",
+        "strImageName": [
+            "iphone14"
+        ],
+        "objProductCategory": "iphone14"
+    },
+    {
+        "id": 6,
+        "strName": "iPhone 14 Plus",
+        "doublePrice": 89990,
+        "strCategory": "iphone14",
+        "strDescription": "Apple iPhone 14 Plus with bigger battery",
+        "strFullDescription": "iPhone 14 Plus delivers all-day battery life, larger display, and advanced dual-camera system.",
+        "strImageName": [
+            "iphone14plus"
+        ],
+        "objProductCategory": "iphone14"
+    },
+    {
+        "id": 7,
+        "strName": "iPhone 14 Pro",
+        "doublePrice": 119900,
+        "strCategory": "iphone14",
+        "strDescription": "Apple iPhone 14 Pro with Dynamic Island",
+        "strFullDescription": "iPhone 14 Pro features an Always-On display, 48MP main camera, and the innovative Dynamic Island UI.",
+        "strImageName": [
+            "iphone14pro"
+        ],
+        "objProductCategory": "iphone14"
+    },
+    {
+        "id": 8,
+        "strName": "iPhone 14 Pro Max",
+        "doublePrice": 129900,
+        "strCategory": "iphone14",
+        "strDescription": "Apple iPhone 14 Pro Max premium phone",
+        "strFullDescription": "iPhone 14 Pro Max brings best-in-class display, camera, and battery performance.",
+        "strImageName": [
+            "iphone14promax"
+        ],
+        "objProductCategory": "iphone14"
+    },
+    {
+        "id": 9,
+        "strName": "iPhone 12",
+        "doublePrice": 59990,
+        "strCategory": "iphone12",
+        "strDescription": "Apple iPhone 12 with A14 Bionic chip",
+        "strFullDescription": "The iPhone 12 offers a Super Retina XDR display and 5G support at an affordable price.",
+        "strImageName": [
+            "iphone12"
+        ],
+        "objProductCategory": "iphone12"
+    },
+    {
+        "id": 10,
+        "strName": "iPhone 12 Mini",
+        "doublePrice": 49990,
+        "strCategory": "iphone12",
+        "strDescription": "Apple iPhone 12 Mini compact design",
+        "strFullDescription": "The iPhone 12 Mini provides full performance of iPhone 12 in a compact, easy-to-handle size.",
+        "strImageName": [
+            "iphone12mini"
+        ],
+        "objProductCategory": "iphone12"
+    },
+    {
+        "id": 11,
+        "strName": "iPhone 12 Pro",
+        "doublePrice": 89990,
+        "strCategory": "iphone12",
+        "strDescription": "Apple iPhone 12 Pro with LiDAR scanner",
+        "strFullDescription": "iPhone 12 Pro comes with LiDAR scanner, triple camera, and professional-grade photography features.",
+        "strImageName": [
+            "iphone12pro"
+        ],
+        "objProductCategory": "iphone12"
+    },
+    {
+        "id": 12,
+        "strName": "iPhone 12 Pro Max",
+        "doublePrice": 99990,
+        "strCategory": "iphone12",
+        "strDescription": "Apple iPhone 12 Pro Max with big display",
+        "strFullDescription": "The iPhone 12 Pro Max combines a large screen with advanced camera and performance features.",
+        "strImageName": [
+            "iphone12promax"
+        ],
+        "objProductCategory": "iphone12"
+    },
+    {
+        "id": 13,
+        "strName": "iPhone SE (3rd Gen)",
+        "doublePrice": 49990,
+        "strCategory": "iphoneSE",
+        "strDescription": "Apple iPhone SE with Touch ID",
+        "strFullDescription": "iPhone SE (3rd Gen) brings powerful A15 Bionic performance in a classic design with Touch ID.",
+        "strImageName": [
+            "iphonese"
+        ],
+        "objProductCategory": "iphoneSE"
+    },
+    {
+        "id": 14,
+        "strName": "iPhone 11",
+        "doublePrice": 44990,
+        "strCategory": "iphone11",
+        "strDescription": "Apple iPhone 11 with dual-camera",
+        "strFullDescription": "iPhone 11 offers excellent performance and dual-camera system with Night mode at an affordable price.",
+        "strImageName": [
+            "iphone11"
+        ],
+        "objProductCategory": "iphone11"
+    },
+    {
+        "id": 15,
+        "strName": "iPhone XR",
+        "doublePrice": 39990,
+        "strCategory": "iphoneXR",
+        "strDescription": "Apple iPhone XR with Liquid Retina display",
+        "strFullDescription": "The iPhone XR features a vibrant Liquid Retina display and long battery life.",
+        "strImageName": [
+            "iphonexr"
+        ],
+        "objProductCategory": "iphoneXR"
+    }
+]
